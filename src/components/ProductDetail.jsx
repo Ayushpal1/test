@@ -28,8 +28,8 @@ const ProductDetail = ({ product, onBack }) => {
     'Home',
     product.category === 'Scooters' ? 'Bikes' : product.category,
     product.category,
-    `${product.category} in Uttar Pradesh`,
-    `${product.category} in Gorakhpur`,
+    // `${product.category} in Uttar Pradesh`,
+    // `${product.category} in Gorakhpur`,
     product.title
   ];
 
